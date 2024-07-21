@@ -23,5 +23,6 @@ public class AlienController {
         System.out.println("this is data "+alien);
         return "home";
     }
+
 }
 

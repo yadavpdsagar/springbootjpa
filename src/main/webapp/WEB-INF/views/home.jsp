@@ -12,6 +12,8 @@
     <input type="text" name="id"> <br>
     <label >name </label>
     <input type="text" name="name"> <br>
+    <label >Address</label>
+    <input type="text" name="Address"> <br>
     <input type="submit"><br>
 
 

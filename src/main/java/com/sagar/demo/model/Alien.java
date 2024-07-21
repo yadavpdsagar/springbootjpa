@@ -8,6 +8,15 @@ public class Alien {
     @Id
     private int id;
     private String name;
+    private String Address;
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        this.Address = address;
+    }
 
     public int getId() {
         return id;
@@ -26,6 +35,6 @@ public class Alien {
     }
     @Override
     public String toString() {
-        return "Alien [id=" + id + ", name=" + name + "]";
+        return "Alien [id=" + id + ", name=" + name + ",Address=" + Address + "]" ;
     }
 }
